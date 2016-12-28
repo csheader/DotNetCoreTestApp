@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  dockertestapplication:
+    image: user/dockertestapplication${TAG}
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "80"
