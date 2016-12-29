@@ -3,3 +3,5 @@
 ################################################################################
 
 /DockerTestApplication/src/DockerTestApplication/bin/Release
+/DockerTestApplication/src/DockerTestApplication/Properties/PublishProfiles
+/DockerTestApplication/src/DockerTestApplication/obj/Release/netcoreapp1.0
