@@ -1,4 +1,4 @@
-FROM microsoft/aspnetcore:1.0.0
+FROM microsoft/aspnetcore:1.1.0
 ENTRYPOINT ["dotnet", "DockerTestApplication.dll"]
 ARG source=.
 WORKDIR /app
