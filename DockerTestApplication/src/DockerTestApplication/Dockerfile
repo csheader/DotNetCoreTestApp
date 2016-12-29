@@ -4,4 +4,4 @@ ARG source=.
 WORKDIR ./
 ENV ASPNETCORE_URLS http://*:80
 EXPOSE 80
-COPY out ./
+COPY ./
