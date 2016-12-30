@@ -1,5 +1,5 @@
 FROM microsoft/aspnetcore:1.1.0
-ENTRYPOINT ["dotnet", "DockerTestApplication.dll"]
+ENTRYPOINT /bin/bash -c "dotnet DockerTestApplication.dll"
 ARG source=.
 WORKDIR /app
 ENV ASPNETCORE_URLS http://0.0.0.0:80
